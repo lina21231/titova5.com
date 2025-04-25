@@ -2,3 +2,15 @@ nav a.active {
     font-weight: bold;
     color: rgb(199, 68, 149);
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    #contactForm {
+        width: 90%;
+        margin: 0 auto;
+    }
+    input, textarea {
+        width: 100%;
+    }
+}
